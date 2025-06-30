@@ -37,26 +37,3 @@ start index.html
 ├── /css/
 └── tailwind.config.js
 
-## Features
-  - Fully responsive layout
-  - Clean and minimal UI with Tailwind
-  - GitHub, Resume, and Contact links
-  - Deployed on Netlify
-
-## contributing:
-  welcome: true
-  guidelines:
-    - Fork the repository
-    - Create a feature branch: git checkout -b feature/awesome-feature
-    - Commit your changes: git commit -m "Add awesome feature"
-    - Push to branch: git push origin feature/awesome-feature
-    - Open a pull request
-
-## license:
-  type: MIT
-  usage: "Free to use, modify, and distribute with proper credit."
-
-## author:
-  name: "Ashar Ali"
-  github: "https://github.com/Asharr-Ali"
-  portfolio: "https://ashar-ali.netlify.app/"
