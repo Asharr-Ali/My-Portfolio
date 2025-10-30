@@ -11,8 +11,7 @@
   <header>
     <div class="fixed top-0 left-0 w-full h-12 bg-black flex justify-between z-50">
       <div class="scale-50 sm:scale-100 flex">
-        <img class="ml-6" src="https://talhaabbas.com/_next/image?url=%2Flogo.png&w=96&q=75"/>
-        <h1 class="mt-1 ml-1 text-4xl text-white"> Ashar </h1>
+        <h1 class="mt-3 ml-10 text-4xl text-white"> Ashar </h1>
       </div>
       <div class="hidden lg:flex justify-normal gap-6 text-white mr-70 mt-2 mb-2 text-xl">
         <a class=" hover:bg-sky-500 rounded-lg" href = "#home"> Home </a>
@@ -22,8 +21,8 @@
         <a class=" hover:bg-sky-500 rounded-lg" href = "#portfolio"> Portfolio </a>
         <a class=" hover:bg-sky-500 rounded-lg" href = "#contact-me"> Contact </a>
       </div>
-      <a class="hidden lg:inline-block text-white text-xl bg-red-600 mr-10 mt-3 mb-2 rounded-xl pr-2 pl-2 hover:bg-sky-500" href = "My Resume (1).pdf" target="_blank"> View My Resume </a>
-      <a class="lg:hidden inline-block text-white text-xl bg-red-600 mr-10 mt-3 mb-2 rounded-xl pr-2 pl-2 hover:bg-sky-500" href = "My Resume (1).pdf" target="_blank"> CV </a>
+      <a class="hidden lg:inline-block text-white text-xl bg-red-600 mr-10 mt-3 mb-2 rounded-xl pr-2 pl-2 hover:bg-sky-500" href = "Ashar Ali CV   .pdf" target="_blank"> View My Resume </a>
+      <a class="lg:hidden inline-block text-white text-xl bg-red-600 mr-10 mt-3 mb-2 rounded-xl pr-2 pl-2 hover:bg-sky-500" href = "Ashar Ali CV   .pdf" target="_blank"> CV </a>
       <select onchange="location = this.value" class="inline-block lg:hidden bg-black text-white">
         <option value = "#home"> Home </option>
         <option value = "#what-i-do"> What I do </option>
@@ -52,7 +51,6 @@
         <a class="hover:text-sky-500" href = "https://www.linkedin.com/in/ashar-ali-184a26318/" target ="_blank"> <i class="fa fa-linkedin-square"></i> </a>
         <a class="hover:text-sky-500" href = "https://github.com/Asharr-Ali" target ="_blank"> <i class="fa fa-github-square"></i> </a>  
       </div>
-      <img class="xl:absolute xl:top-52 xl:right-24" src="https://talhaabbas.com/_next/image?url=%2Fworking.png&w=1080&q=75"/>
     </section>
     
     <section id="what-i-do" class="mt-40 text-white">
@@ -178,15 +176,43 @@
 
     <section id="portfolio" class="mt-40 ml-10 text-white">
       <div class="text-4xl text-red-500 font-bold flex justify-center"> My Portfolio </div>
-      <div class="flex flex-col xl:flex-row">
-        <div class=" group scale-75 hover:scale-90 border border-black transition-transform transform  hover:border-sky-500 bg-gray-900 flex flex-col md:scale-100 rounded-lg md:w-[400px] md:h-[570px] md:mt-10 md:ml-40">
-          <img class="h-56 w-auto border border-red-500 group-hover:border-black rounded-lg" src="next_watch.png"/>
-          <h1 class="ml-5 mt-3 font-extrabold text-xl"> Next Watch </h1>
-          <p class="ml-5 mr-5 mt-1 text-justify"> An AI-powered movie recommendation system where users can sign in, like movies, add them to a watchlist, and rate them. The system intelligently recommends movies based on user preferences such as liked genres and ratings, enhancing the viewing experience through tailored suggestions. </p>
-          <h1 class="ml-5 mt-2.5 font-bold text-xl"> Technologies Used </h1>
-          <p class="ml-5 mr-5 text-justify"> 🛠️Frontend: ReactJS </p>
-          <p class="ml-5 mr-5 text-justify"> 🔧Backend: NodeJS with Express (REST APIs), Python (Flask) </p>
-          <p class="ml-5 mr-5 text-justify"> 💽Database: SQL Server </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8 xl:gap-10 p-4 md:p-8 xl:p-12">
+        <div class="group hover:scale-95 border border-black transition-transform transform hover:border-sky-500 bg-gray-900 flex flex-col rounded-lg max-w-[400px] mx-auto">
+          <img class="h-56 w-full object-cover border border-red-500 group-hover:border-black rounded-t-lg" src="next_watch.png" alt="Next Watch"/>
+          <div class="p-5 flex-1 flex flex-col">
+            <h1 class="font-extrabold text-xl"> Next Watch </h1>
+            <p class="mt-3 text-justify flex-1"> An AI-powered movie recommendation system where users can sign in, like movies, add them to a watchlist, and rate them. The system intelligently recommends movies based on user preferences such as liked genres and ratings, enhancing the viewing experience through tailored suggestions. </p>
+            <h1 class="mt-4 font-bold text-xl"> Technologies Used </h1>
+            <p class="mt-2 text-justify"> 🛠️Frontend: ReactJS </p>
+            <p class="text-justify"> 🔧Backend: NodeJS with Express (REST APIs), Python (Flask) </p>
+            <p class="text-justify"> 💽Database: SQL Server </p>
+            <p class="text-justify font-extrabold"> Deployment in Progress! </p>
+          </div>
+        </div>
+        
+        <div class="group hover:scale-95 border border-black transition-transform transform hover:border-sky-500 bg-gray-900 flex flex-col rounded-lg max-w-[400px] mx-auto">
+          <img class="h-56 w-full object-cover border border-red-500 group-hover:border-black rounded-t-lg" src="rentify.png" alt="Next Watch"/>
+          <div class="p-5 flex-1 flex flex-col">
+            <h1 class="font-extrabold text-xl"> Rentify </h1>
+            <p class="mt-3 text-justify flex-1"> 🚗 Rentify — A full-stack car rental management system that allows users to browse, book, and manage vehicles seamlessly. Admins can monitor rentals, manage listings — all through an intuitive dashboard built for efficiency and scalability. The platform ensures a smooth user experience with secure authentication, real-time availability updates, and responsive design. </p>
+            <h1 class="mt-4 font-bold text-xl"> Technologies Used </h1>
+            <p class="mt-2 text-justify"> 🛠️Frontend: ReactJS </p>
+            <p class="text-justify"> 🔧Backend: NodeJS with Express (REST APIs) </p>
+            <p class="text-justify"> 💽Database: MongoDB </p>
+            <p class="mt-1 ml-5 text-justify font-extrabold"> <a href="https://rentify-livid-chi.vercel.app/" target="_blank">Live Link</a> </p>
+          </div>
+        </div>
+        
+        <div class="group hover:scale-95 border border-black transition-transform transform hover:border-sky-500 bg-gray-900 flex flex-col rounded-lg max-w-[400px] mx-auto">
+          <img class="h-56 w-full object-cover border border-red-500 group-hover:border-black rounded-t-lg" src="sky_cast.png" alt="Next Watch"/>
+          <div class="p-5 flex-1 flex flex-col">
+            <h1 class="font-extrabold text-xl"> Real Time Weather App </h1>
+            <p class="mt-3 text-justify flex-1"> 🌤️ SkyCast — A sleek and responsive weather forecasting app that provides real-time weather updates, temperature trends, and location-based forecasts. Users can search any city worldwide and get accurate weather details powered by reliable APIs. The app features an elegant UI with dynamic backgrounds that change based on weather conditions for an immersive experience. </p>
+            <h1 class="mt-4 font-bold text-xl"> Technologies Used </h1>
+            <p class="mt-2 text-justify"> 🛠️Frontend: ReactJS, Tailwind CSS </p>
+            <p class="mt-1 ml-5 text-justify font-extrabold"> <a href="https://skycast-three.vercel.app/" target="_blank">Live Link</a> </p>
+          </div>
         </div>
       </div>
     </section>
